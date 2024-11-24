@@ -33,6 +33,8 @@ func main() {
 		"for(var i=0;i<10;i=i+1){" +
 		"print i;" +
 		"}")
+	runCode("var a=22+33-44*55;" +
+		"print a;")
 }
 
 func runFile(path string) {
